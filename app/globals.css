@@ -1,5 +1,7 @@
 @import 'tailwindcss';
 .hero-instagram { display:inline-flex;align-items:center;gap:9px;margin:0 0 31px;color:var(--silver);font-size:11px;letter-spacing:.1em;text-transform:uppercase;transition:color .25s ease,transform .25s ease; }.hero-instagram:hover { color:var(--mist);transform:translateX(4px); }.hero-instagram b { font-size:15px;font-weight:400;line-height:1; }.instagram-icon { display:block;width:18px;height:18px;flex:none;filter:drop-shadow(0 2px 4px rgba(0,0,0,.22)); }
+.nav { height:96px; }.brand { gap:11px; }.brand-logo { width:52px;height:46px; }.brand-name { color:var(--mist);font-family:Georgia,serif;font-size:clamp(25px,2.2vw,34px);font-style:italic;font-weight:400;letter-spacing:-.06em;text-transform:none;white-space:nowrap; }
+@media (max-width:720px) { .hero .nav { height:72px; }.nav .brand { gap:7px; }.nav .brand-logo { width:38px;height:34px; }.nav .brand-name { font-size:24px; } .links { top:72px; } }
 @font-face { font-family:Matter; src:url('https://cdn.prod.website-files.com/695e7fa0a8a6762fbe0a0b48/695eb8b57cca1cdd708978a4_Matter-Regular.woff2') format('woff2'); font-weight:400; font-style:normal; font-display:swap; }
 @font-face { font-family:Matter; src:url('https://cdn.prod.website-files.com/695e7fa0a8a6762fbe0a0b48/695eb8b5ca29b8b424983fd3_Matter-Medium.woff2') format('woff2'); font-weight:500; font-style:normal; font-display:swap; }
 :root { --abyss:#012624; --deep:#011d1c; --mist:#edfffe; --silver:#bbc7c6; }
